@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: #222831;
+    background-color: #EEEEEE;
+}
+
+/* logo and headings */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00ADB5;
+}
+
+#logo {
+    font-family: Poppins, sans-serif;
+    float: left;
+    text-transform: uppercase;
+    font-size: 300%;
+    margin-left: 20px;
+    color: #00ADB5;
+    letter-spacing: 2px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/* social links */
+
+#social {
+    
+}
