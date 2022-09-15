@@ -10,7 +10,7 @@ body {
     font-family: Poppins, sans-serif;
     font-weight: 400;
     color: #222831;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 
 /* header top & social links */
@@ -21,7 +21,7 @@ body {
     height: 50px;
     width: 100%;
     border-bottom: 1px solid #00ADB5;
-    background-color: white;
+    background-color: #EEEEEE;
 }
 
 #social {
@@ -31,7 +31,7 @@ body {
 #social li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 22px;
     margin-top: 10px;
     vertical-align: middle;
 }
@@ -92,4 +92,38 @@ menu a {
 
 #menu a:hover, menu a:active {
     color: #00ADB5;
+}
+
+/* Hero Images */
+
+#home-hero-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+
+#hero-image {
+    height: inherit;
+    width: 100%;
+    background: url('../images/Hero\ Image\ 1.jpg') no-repeat center center;
+
+
+/* animates zoom effect on hero image */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for the hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale (1.1);
+    }
 }
