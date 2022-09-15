@@ -187,20 +187,30 @@ menu a {
 /* About us section */
 
 #about-us {
-    height: 600px;
+    height: 800px;
+    width: 100%;
 }
 
 #left-about-us {
-    padding: 30px, 30px;
-    margin: 30px 300px;
+    padding-top: 30px;
+    padding-left: 150px;
+    width: 50%;
+    float: left;
+    display: inline;
 }
 
-#left-about-us > h2 {
+#about-us > h1 {
     text-align: center;
     font-size: 250%;
 }
 
 .about-us-image {
     background: url('../images/Back\ Pain.jpg') no-repeat center center;
-    height: 50%;
+    width: 458px;
+    height: 300px;
+    margin: 0 auto;
+    padding-right: 150px;
+    padding-top: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
