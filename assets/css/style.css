@@ -18,26 +18,31 @@ body {
 #header-top {
     position: relative;
     align-items: center;
-    height: 70px;
+    height: 50px;
     width: 100%;
     border-bottom: 1px solid #00ADB5;
+    background-color: white;
 }
 
 #social {
-    display: inline-block;
+    float: right;
 }
 
 #social li {
     list-style-type: none;
-    margin-right: 20px;
     display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    vertical-align: middle;
 }
 
 #social i {
     font-size: 120%;
-    margin: 1%;
-    padding: 5%;
     color: #00ADB5;
+}
+
+#social i:hover {
+    opacity: 0.7;
 }
 
 /* logo and headings */
@@ -63,12 +68,28 @@ h1, h2 {
 
 #menu {
     font-size: 120%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     float: right;
+    vertical-align: middle;
 }
 
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 20px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border: 1px solid #00ADB5;
+}
+
+#menu a:hover, menu a:active {
+    color: #00ADB5;
 }
