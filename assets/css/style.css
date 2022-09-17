@@ -189,14 +189,21 @@ h1, h2 {
 #about-us {
     height: 800px;
     width: 100%;
+    border: 1px solid red;
 }
 
-#left-about-us {
-    padding-top: 30px;
-    padding-left: 150px;
-    width: 50%;
+#about-container {
+    height: 800px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.left-about-us {
+    width: 400px;
     float: left;
     display: inline;
+    position: absolute;
 }
 
 #about-us > h1 {
@@ -206,13 +213,9 @@ h1, h2 {
 
 .about-us-image {
     background: url('../images/Back\ Pain.jpg') no-repeat center center;
-    width: 458px;
+    width: 400px;
     height: 300px;
     margin: 0 auto;
-    padding-right: 150px;
-    padding-top: 30px;
-    display: inline-block;
-    vertical-align: top;
 }
 
 /* footer */
