@@ -231,6 +231,8 @@ h1, h2 {
     list-style-type: none;
     margin-right: 22px;
     margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     vertical-align: middle;
 }
 
