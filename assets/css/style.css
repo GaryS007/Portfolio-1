@@ -18,7 +18,7 @@ body {
 #header-top {
     position: relative;
     align-items: center;
-    height: 50px;
+    height: 230px;
     width: 100%;
     border-bottom: 2px solid #00ADB5;
     background-color: rgba(34, 40, 49, 0.7);
@@ -54,11 +54,20 @@ h1, h2 {
     color: #00ADB5;
 }
 
-#logo {
+.logo-image {
+    background: url('../images/logo2.png') no-repeat center center;
+    height: 170px;
+    width: 170px;
+    float: left;
+    position: absolute;
+
+}
+
+.logo-text {
     font-family: Poppins, sans-serif;
     float: left;
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: 200%;
     margin-left: 20px;
     color: #00ADB5;
     letter-spacing: 2px;
@@ -192,8 +201,8 @@ h1, h2 {
     border: 1px solid red;
 }
 
-#about-container {
-    height: 800px;
+.about-container {
+    height: 739px;
     width: 80%;
     border: 1px solid black;
     margin: 0 auto;
@@ -216,6 +225,7 @@ h1, h2 {
     width: 400px;
     height: 300px;
     margin: 0 auto;
+    float: right;
 }
 
 /* footer */
