@@ -18,7 +18,7 @@ body {
 #header-top {
     position: relative;
     align-items: center;
-    height: 230px;
+    height: 200px;
     width: 100%;
     border-bottom: 2px solid #00ADB5;
     background-color: rgba(34, 40, 49, 0.7);
@@ -55,22 +55,13 @@ h1, h2 {
 }
 
 .logo-image {
-    background: url('../images/logo2.png') no-repeat center center;
+    background: url('../images/logo5.png') no-repeat center center;
     height: 170px;
-    width: 170px;
+    width: 455px;
+    padding: 15px;
     float: left;
     position: absolute;
 
-}
-
-.logo-text {
-    font-family: Poppins, sans-serif;
-    float: left;
-    text-transform: uppercase;
-    font-size: 200%;
-    margin-left: 20px;
-    color: #00ADB5;
-    letter-spacing: 2px;
 }
 
 /* navigation links */
@@ -198,7 +189,7 @@ h1, h2 {
 #about-us {
     height: 800px;
     width: 100%;
-    border: 1px solid red;
+    background-color: rgba(34, 40, 49, 0.7);
 }
 
 .about-container {
@@ -206,6 +197,7 @@ h1, h2 {
     width: 80%;
     border: 1px solid black;
     margin: 0 auto;
+    background-color: white;
 }
 
 .left-about-us {
